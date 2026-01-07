@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  header { justify-content: flex-start; gap: 2rem; }
+  #menu { display: none; }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  nav a { padding: 1rem 2rem; }
+
+  main { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+  #about, #photo { grid-column: span 2; }
+
+  #courses { grid-column: 1 / -1; }
+  #course-list { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+}
