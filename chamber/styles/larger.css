@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-content img {
+        width: 150px;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    #directory.grid-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #directory.list-view {
+        grid-template-columns: 1fr;
+    }
+
+    .member-card {
+        text-align: left;
+    }
+}

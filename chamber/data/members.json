@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Dangote Group",
+        "address": "Marble House, 1 Alfred Rewane Road, Falomo, Ikoyi, Lagos",
+        "phone": "+234 1 448 0811",
+        "website": "https://www.dangote.com",
+        "image": "https://via.placeholder.com/300x200?text=Dangote+Group",
+        "membership": 3,
+        "info": "Africa's leading conglomerate in cement, sugar, and fertilizer."
+    },
+    {
+        "name": "MTN Nigeria",
+        "address": "MTN Plaza, Falomo, Ikoyi, Lagos",
+        "phone": "+234 803 100 1800",
+        "website": "https://www.mtn.ng",
+        "image": "https://via.placeholder.com/300x200?text=MTN+Nigeria",
+        "membership": 3,
+        "info": "Leading telecommunications provider in Nigeria."
+    },
+    {
+        "name": "Zenith Bank",
+        "address": "Zenith Heights, Plot 87 Ajose Adeogun Street, Victoria Island, Lagos",
+        "phone": "+234 1 278 7000",
+        "website": "https://www.zenithbank.com",
+        "image": "https://via.placeholder.com/300x200?text=Zenith+Bank",
+        "membership": 3,
+        "info": "One of Nigeria's largest commercial banks."
+    },
+    {
+        "name": "Guaranty Trust Bank (GTBank)",
+        "address": "Plot 635 Akin Adesola Street, Victoria Island, Lagos",
+        "phone": "+234 1 448 0740",
+        "website": "https://www.gtbank.com",
+        "image": "https://via.placeholder.com/300x200?text=GTBank",
+        "membership": 2,
+        "info": "Innovative banking services across Africa."
+    },
+    {
+        "name": "Julius Berger Nigeria",
+        "address": "10 Shettima A. Munguno Crescent, Utako, Abuja (Lagos office available)",
+        "phone": "+234 9 290 0000",
+        "website": "https://www.julius-berger.com",
+        "image": "https://via.placeholder.com/300x200?text=Julius+Berger",
+        "membership": 2,
+        "info": "Leading construction company in infrastructure."
+    },
+    {
+        "name": "Access Bank",
+        "address": "Plot 999c Danmole Street, Victoria Island, Lagos",
+        "phone": "+234 1 271 2005",
+        "website": "https://www.accessbankplc.com",
+        "image": "https://via.placeholder.com/300x200?text=Access+Bank",
+        "membership": 2,
+        "info": "Full-service commercial bank with pan-African presence."
+    },
+    {
+        "name": "Nigerian Breweries",
+        "address": "Iganmu House, Abebe Village Road, Iganmu, Lagos",
+        "phone": "+234 1 271 7400",
+        "website": "https://www.nbplc.com",
+        "image": "https://via.placeholder.com/300x200?text=Nigerian+Breweries",
+        "membership": 1,
+        "info": "Nigeria's foremost brewing company."
+    },
+    {
+        "name": "Flutterwave",
+        "address": "Lagos, Nigeria",
+        "phone": "+234 201 888 8888",
+        "website": "https://flutterwave.com",
+        "image": "https://via.placeholder.com/300x200?text=Flutterwave",
+        "membership": 1,
+        "info": "Africa's leading payments technology company."
+    }
+]
