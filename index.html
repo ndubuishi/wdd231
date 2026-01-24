@@ -4,68 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 231 Course Home Page - Student Name">
-    <meta name="author" content="GODSWILL NDUBUISHI">
-    <title>GODSWILL NDUBUISHI | WDD 231</title>
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/dates.js" defer></script>
-    <script src="scripts/courses.js" defer></script>
+    <title>Lagos Chamber of Commerce | Home</title> <!-- Update for your chamber -->
+    <meta name="description"
+        content="Welcome to the Lagos Chamber of Commerce - Supporting local businesses in Lagos, Nigeria.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css"> <!-- Or your main CSS -->
+    <link rel="stylesheet" href="styles/larger.css"> <!-- If you have media queries separated -->
 </head>
 
 <body>
     <header>
-        <img src="images/weather.svg" alt="Site Logo">
-        <span>GODSWILL NDUBUISHI</span>
-        <button id="menu" aria-label="Toggle navigation menu">☰</button>
+        <!-- Your consistent header: logo, chamber name, etc. -->
+        <h1>Lagos Chamber of Commerce</h1>
+        <!-- Add date or other elements if in your plan -->
     </header>
-
-    <nav id="nav-menu">
-        <a href="#" class="active">Home</a>
-        <a href="#">Chamber</a>
-        <a href="#">Final</a>
+    <nav>
+        <!-- Your navigation links: Home, Directory, Join, Discover, etc. -->
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
     </nav>
 
-    <main>
-        <h1>Home</h1>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am Godswill, a BYU Pathway Software Development student from Nigeria, currently taking my first
-                certificate course in Web Frontend Development</p>
-        </section>
-
-        <section id="photo">
-            <h2>Student Photo</h2>
-            <img src="images/godswillndu.webp" alt="Student Photo">
-        </section>
-
-        <section id="courses">
-            <h2>Web Certificate Courses</h2>
-            <div class="filters">
-                <button data-filter="all" class="active">All</button>
-                <button data-filter="CSE">CSE</button>
-                <button data-filter="WDD">WDD</button>
+    <main class="home-main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/hero-small.webp">
+                <source media="(min-width: 601px)" srcset="images/hero-large.webp">
+                <img src="images/hero-large.webp" alt="Lagos skyline or business scene" loading="lazy">
+            </picture>
+            <div class="hero-overlay">
+                <h2>Welcome to Lagos</h2>
+                <p>Join our thriving business community!</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
             </div>
-            <div id="course-list"></div>
-            <p id="credit-total">The total credits for courses listed above is <span id="credits">0</span></p>
+        </section>
+
+        <!-- Current Events Section -->
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Annual Business Networking Gala</h3>
+                <p>Date: February 15, 2026 | Location: Eko Hotel</p>
+                <p>Join us for networking and keynote speakers.</p>
+            </article>
+            <!-- Add 1-2 more events -->
+        </section>
+
+        <!-- Weather Section -->
+        <section class="weather">
+            <h2>Current Weather in Lagos</h2>
+            <div id="current-weather">
+                <p id="temp"></p>
+                <p id="description"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                </figure>
+            </div>
+            <h3>3-Day Forecast</h3>
+            <div id="forecast"></div>
+        </section>
+
+        <!-- Spotlights Section -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
         </section>
     </main>
 
     <footer>
-        <div class="social">
-            <a href="https://github.com/ndubuishi" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/ndubuishigodswill" target="_blank">LinkedIn</a>
-        </div>
-        <div>
-            <p>© <span id="currentyear"></span> <span>Godswill Ndubuishi</span> | Nigeria</p>
-            <p id="lastModified"></p>
-        </div>
+        <!-- Your consistent footer: contact, last modified, etc. -->
+        <p>&copy; <span id="year"></span> Lagos Chamber of Commerce</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
     </footer>
+
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

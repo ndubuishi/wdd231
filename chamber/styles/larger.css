@@ -1,27 +1,43 @@
+/* In your larger.css or media query */
 @media (min-width: 768px) {
-    .header-content {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+    .home-main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
     }
 
-    .header-content img {
-        width: 150px;
+    .hero {
+        grid-column: 1 / -1;
     }
 
-    nav ul {
-        justify-content: flex-end;
+    .spotlights {
+        grid-column: 1 / -1;
     }
+}
 
-    #directory.grid-view {
-        grid-template-columns: repeat(3, 1fr);
-    }
+/* Hero styling */
+.hero {
+    position: relative;
+}
 
-    #directory.list-view {
-        grid-template-columns: 1fr;
-    }
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
-    .member-card {
-        text-align: left;
-    }
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.cta-button {
+    background: #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
 }
